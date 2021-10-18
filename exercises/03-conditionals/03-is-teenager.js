@@ -3,7 +3,7 @@ let age = 14; // e.g.
 /**
  * Create a variable called "isTeenager". (Do not use var.)
  * If "age" is greater than 12, but less than 20, "isTeenager" should be true.
- * Otherwise, "isAge" should be false.
+ * Otherwise, "isTeenager" should be false.
  * You must use either the logical and (&&) or the logical or (||) to solve this problem.
  * Your answer should still work when "age" is a different value.
  */
@@ -12,7 +12,8 @@ let age = 14; // e.g.
 let isTeenager=true;
 if (age>12 && age<20){
     isTeenager=true
-} else (age<=12 || age>=20);{
+} else {
+    console.log("here", age)
 isTeenager=false
 }
 console.log(isTeenager);

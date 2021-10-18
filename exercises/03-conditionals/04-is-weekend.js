@@ -10,8 +10,8 @@ let day = "Saturday";
 
 // WRITE YOUR ANSWER BELOW THIS LINE
 let isWeekend=true;
-if (day="Saturday" || "Sunday"){
+if (day==="Saturday" || day==="Sunday"){
     isWeekend=true
-} else (day= "Monday" || "Tuesday" || "Wednesday" || "Thursday" || "Friday");{
+} else {
     isWeekend=false
 }console.log(isWeekend)
