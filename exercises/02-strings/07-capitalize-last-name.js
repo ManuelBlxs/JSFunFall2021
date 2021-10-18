@@ -11,3 +11,9 @@ let fullName = "John smith"; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+let space = fullName.indexOf(" ");
+let firstName = fullName.substring(0, space);
+let lastNameInitial = fullName.substring(space + 1, space + 2);
+let lastName = lastNameInitial.toUpperCase() + fullName.substring(space + 2);
+fullName = firstName + " " + lastName;
+console.log(fullName)

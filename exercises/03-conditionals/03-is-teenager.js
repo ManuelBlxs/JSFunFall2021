@@ -9,3 +9,10 @@ let age = 14; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+let isTeenager=true;
+if (age>12 && age<20){
+    isTeenager=true
+} else (age<=12 || age>=20);{
+isTeenager=false
+}
+console.log(isTeenager);
