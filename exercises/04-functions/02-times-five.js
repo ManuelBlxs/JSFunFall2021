@@ -7,3 +7,6 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const timesFive = (num) => {
+    return 5 * num;
+};

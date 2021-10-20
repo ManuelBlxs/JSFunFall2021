@@ -17,3 +17,45 @@ let monthNum = "10"; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+// With switch statements
+let monthText="null"
+switch (monthNum) {
+case "01" || "1":
+    monthText="January";
+    break;
+case "02" || "2":
+    monthText="February";
+    break;
+case "03" || "3":
+    monthText="March";
+    break;
+case "04" || "4":
+    monthText="April";
+    break;
+case "05" || "5":
+    monthText="May";
+    break;
+case "06" || "6":
+    monthText="June";
+    break;
+case "07" || "7":
+    monthText="July";
+    break;
+case "08" || "8":
+    monthText="August";
+    break;
+case "09" || "9":
+    monthText="September";
+    break;
+case "10":
+    monthText="October";
+    break;
+case "11":
+    monthText="November";
+    break;
+case "12":
+    monthText="December";
+    break;
+  default:
+    monthText=null;
+}
