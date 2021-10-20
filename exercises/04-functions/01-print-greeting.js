@@ -8,6 +8,6 @@
 // WRITE YOUR ANSWER BELOW THIS LINE
 let firstName="Manuel"
 const printGreeting = (firstName) => {
-    console.log("Hello", firstName,"!");
+    return("Hello" + " " + firstName + "!");
 };
-printGreeting(firstName)
+console.log(printGreeting(firstName))
