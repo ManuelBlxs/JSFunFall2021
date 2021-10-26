@@ -6,3 +6,6 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+let countNumberOfDigits = (x) => {
+    return x.toString().length;
+}

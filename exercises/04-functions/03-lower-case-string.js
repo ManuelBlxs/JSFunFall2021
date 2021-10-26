@@ -10,3 +10,8 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+let myText="TYPE Here"
+const lowerCaseString = (myText) => {
+    if (typeof myText==="string")
+    return myText.toLowerCase();
+};
