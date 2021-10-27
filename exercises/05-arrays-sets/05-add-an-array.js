@@ -7,8 +7,11 @@
  */
 
 const add = (numbers) => {
-  // WRITE YOUR ANSWER HERE
-  return 
+  let sum = 0;
+  for (let i in numbers) {
+    sum += numbers[i];
+  }
+  return sum;
 };
 
 // IGNORE THIS BELOW. It is for the tests.
