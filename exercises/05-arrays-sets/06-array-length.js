@@ -8,8 +8,8 @@
 
 const arrayLength = (array) => {
   // WRITE YOUR ANSWER HERE
+  return number = array.length
 };
 
 // IGNORE THIS BELOW. It is for the tests.
-
 export default arrayLength;
