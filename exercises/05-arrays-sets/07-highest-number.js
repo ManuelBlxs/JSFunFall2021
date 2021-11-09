@@ -10,6 +10,12 @@
 
 const highestNumber = (numbers) => {
   // WRITE YOUR ANSWER HERE
+  let MaxNumber = 0;
+    for (i=0; i<array.length; i++) {
+    if (array[i]>MaxNumber) {
+        highestNumber = array[i];
+    }
+}
 };
 
 // IGNORE THIS BELOW. It is for the tests.

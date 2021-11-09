@@ -9,9 +9,15 @@
  */
 
 const isPalindrome = (string) => {
-  // WRITE YOUR ANSWER HERE
+  const reversestring = string.split("").reverse("").join("");
+  console.log(reversestring)
+  if (reversestring===string){
+    return true;
+  } else {
+    return false;
+  }
 };
-
+console.log(isPalindrome("madam"))
 // IGNORE THIS BELOW. It is for the tests.
 
 export default isPalindrome;

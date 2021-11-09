@@ -8,7 +8,7 @@
  */
 
 const removeDuplicates = (numbers) => {
-  // WRITE YOUR ANSWER HERE
+  const mySet = new Set (...array);
 };
 
 // IGNORE THIS BELOW. It is for the tests.
